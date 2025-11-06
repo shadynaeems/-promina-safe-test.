@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>ÊÌÑÈÉ ProMina Safe Online</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f0f0f0; }
+    .ad-container { background: #fff; border: 2px dashed #999; padding: 20px; margin: 20px 0; }
+    h1 { color: #333; }
+  </style>
+</head>
+<body>
+  <h1>ÚäæÇä ÊÌÑíÈí</h1>
+  <div class="ad-container">åĞÇ ÚäÕÑ ÅÚáÇä ÊÌÑíÈí ÓíÊã ÅÒÇáÊå.</div>
+  <p>ÇİÊÍ åĞå ÇáÕİÍÉ ãÚ ÇáÓßÑÈÊ æÓíÊã ÊÚÏíá ÇáÚäæÇä æÅÒÇáÉ ãÑÈÚ ÇáÅÚáÇä.</p>
+
+  <script>
+    (function(){
+      'use strict';
+      const headers = document.querySelectorAll('h1');
+      headers.forEach(h => h.textContent = 'ãÑÍÈÇğ Èß İí äÓÎÉ ÂãäÉ ãä ProMina!');
+      const ads = document.querySelectorAll('[class*="ad"]');
+      ads.forEach(ad => ad.remove());
+      console.log('ProMina Safe Online: ÇáÊÚÏíáÇÊ Êã ÊäİíĞåÇ.');
+    })();
+  </script>
+</body>
+</html>
